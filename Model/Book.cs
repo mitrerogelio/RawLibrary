@@ -8,4 +8,7 @@ public class Book
     public string Publisher { get; set; }
     public string ISBN { get; set; }
     public string Genre { get; set; }
+    
+    public List<Book> Books { get; } = [];
+
 }
